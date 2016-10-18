@@ -1,4 +1,3 @@
-<?php
 
 $ echo '{}' > composer.json
 $ git add composer.json
