@@ -1,2 +1,4 @@
 
+$ echo '{}' > composer.json
+$ git add composer.json
 $ git commit -m 'webhook';
