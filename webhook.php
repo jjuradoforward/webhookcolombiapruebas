@@ -1,5 +1,10 @@
 <?php
 
+$ echo '{}' > composer.json
+$ git add composer.json
+$ git commit -m "add composer.json for PHP app detection";
+
+
 $challenge = $_REQUEST['hub_challenge'];
 $verify_token = $_REQUEST['hub_verify_token'];
 
